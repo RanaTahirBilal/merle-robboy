@@ -160,9 +160,8 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--mr-acc-lift);outlin
 .mr-contact a:focus{color:var(--mr-acc-lift)}
 .mr-skip:focus{color:var(--mr-ink)}
 
-/* Merle Robboy additions: text-led hero, no photograph behind it */
-.mr-hero{background:linear-gradient(135deg,#18212E 0%,#2A1B4A 100%) !important;min-height:78vh}
-.mr-hero::before{display:none}
+/* Merle Robboy: the hero carries his picture from 16 November 2026 */
+.mr-hero{min-height:82vh}
 .mr-hero-lede{max-width:640px}
 .mr-portrait{max-width:360px;border-radius:14px;overflow:hidden;box-shadow:0 18px 40px rgba(24,33,46,.18);margin:0}
 .mr-portrait figcaption{font-size:14px;color:var(--mr-muted);padding:10px 4px 0;background:#fff}
