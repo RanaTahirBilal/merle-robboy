@@ -19,9 +19,15 @@
 .mr-figure{margin:28px 0 0;border-radius:12px;overflow:hidden}
 .mr-figure img{display:block;width:100%;height:auto}
 .mr-figure-wide{margin:0 0 34px}
+@media (min-width:992px){ .mr-figure-wide img{aspect-ratio:21/9;object-fit:cover;object-position:center 30%} }
+#counters.mr-band-a{background-position:center 72%}
+
 .mr-figure-row{margin-top:10px}
 .mr-gallery .row figure{margin:0 0 26px;aspect-ratio:4/3;background:#EEE9F6}
 .mr-gallery .row figure img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 26%}
+.mr-gallery .row figure.mr-shot-real{aspect-ratio:auto;overflow:visible;background:none}
+.mr-gallery .row figure.mr-shot-real img{aspect-ratio:4/3;object-fit:contain;object-position:center;background:#E8E3F2;border-radius:12px}
+.mr-gallery .row figure.mr-shot-real figcaption{font-size:14px;color:var(--mr-muted);padding:10px 2px 0;line-height:1.5}
 </style>
 </head>
 <body>
@@ -87,7 +93,7 @@
         <!-- Needs Client Confirmation: how he wants his current work described; the animal hospital is not named. -->
       </div>
       <div class="col-lg-5">
-        <figure class="mr-portrait"><img src="img/portrait-real.jpg" width="600" height="787" alt="Portrait of Dr. Merle S. Robboy" loading="lazy"></figure>
+        <figure class="mr-portrait"><img src="img/ai-01.jpg" width="880" height="1100" alt="Illustration of Dr. Merle S. Robboy in a white coat in a hospital corridor" loading="lazy"></figure>
       </div>
     </div>
   </div>
@@ -178,7 +184,6 @@
     <h2 class="mr-h2">A career in pictures</h2>
     <p>Scenes from the practising years: the hospital and the operating room, the teaching room and the lectern, and the orchid house and dahlia beds that have filled the years since.</p>
     <div class="row">
-      <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-01.jpg" width="880" height="1100" alt="Illustration of Dr. Merle S. Robboy standing in a white coat in a hospital corridor" loading="lazy"></figure></div>
       <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-02.jpg" style="object-position:76% 50%" width="1100" height="619" alt="Illustration of Dr. Merle S. Robboy walking along a glass walled hospital walkway" loading="lazy"></figure></div>
       <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-03.jpg" width="1100" height="825" alt="Illustration of Dr. Merle S. Robboy writing at a desk in a consulting room" loading="lazy"></figure></div>
       <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-04.jpg" width="880" height="1100" alt="Illustration of Dr. Merle S. Robboy standing at a stairwell window, thinking" loading="lazy"></figure></div>
@@ -190,8 +195,9 @@
       <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-10.jpg" width="1100" height="825" alt="Illustration of Dr. Merle S. Robboy holding a potted orchid in a glasshouse" loading="lazy"></figure></div>
       <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-11.jpg" width="1100" height="825" alt="Illustration of Dr. Merle S. Robboy measuring a dahlia bloom at a flower show" loading="lazy"></figure></div>
       <div class="col-sm-6 col-lg-4"><figure><img class="img-fluid" src="img/ai-12.jpg" width="1100" height="825" alt="Illustration of Dr. Merle S. Robboy among dahlias in a garden in late afternoon" loading="lazy"></figure></div>
+      <div class="col-sm-6 col-lg-4"><figure class="mr-shot-real"><img class="img-fluid" src="img/portrait-real.jpg" width="600" height="787" alt="The reference photograph of Dr. Merle S. Robboy, taken during his practising years" loading="lazy"><figcaption>The photograph the illustrations were made from.</figcaption></figure></div>
     </div>
-    <p class="mr-disclosure">Every picture of Dr. Robboy on this page, apart from the portrait in the About section, is an AI generated illustration, produced with his approval from a reference photograph taken during his practising years. They are not photographs of real events. The corridors, operating room, teaching room, lecture hall, glasshouse and garden shown are illustrative settings, not photographs of Hoag Memorial Hospital Presbyterian, the University of California, Irvine, or any other named place.</p>
+    <p class="mr-disclosure">Every picture of Dr. Robboy on this page is an AI generated illustration, produced with his approval from the reference photograph shown last in this gallery, which was taken during his practising years. The illustrations are not photographs of real events. The corridors, operating room, teaching room, lecture hall, glasshouse and garden shown are illustrative settings, not photographs of Hoag Memorial Hospital Presbyterian, the University of California, Irvine, or any other named place.</p>
   </div>
 </section>
 
